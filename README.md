@@ -11,13 +11,6 @@ A VSCode plug to improve the efficiency of writing Markdown documents.
 
 4. Support emoji.
 
------------------
-中文说明
-1. 给选中的文本添加颜色
-2. 给选中的文本提供一些常用函数，比如添加大标题，中标题，高亮代码，转图片，转链接等
-3. 插入table的语法片段
-4. 支持emoji
-
 ![](https://raw.githubusercontent.com/jacoobwang/vscode-markdown-helper/master/markdown-helper.gif?raw=true)
 
 ## Release Notes
@@ -37,6 +30,7 @@ Initial release of ...
 * Text functions `Cmd+shitf+w` (Windows, Linux) or `Shift+Ctrl+w` (OSX) to 
 
 ## Changelog
+
 ### 1.0.0
 
 - **New**: pubilish
