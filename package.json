@@ -4,6 +4,7 @@
     "description": "markdow helper functions like add text color, add h1 h2 h3, add img & snippet ..",
     "version": "1.0.0",
     "publisher": "jacoob",
+    "icons": "icon.png",
     "engines": {
         "vscode": "^1.19.0"
     },
