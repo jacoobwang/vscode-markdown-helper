@@ -40,6 +40,10 @@ Initial release of ...
 
 - **New**: add icon
 
+### 1.1.1
+
+- **Update**: replace icon
+
 ### For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
