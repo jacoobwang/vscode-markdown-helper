@@ -1,7 +1,7 @@
 {
-    "name": "markdown-color",
-    "displayName": "markdown-color",
-    "description": "markdow text add color",
+    "name": "markdown-helper",
+    "displayName": "markdown-helper",
+    "description": "markdow helper functions like add text color, add h1 h2 h3, add img & snippet ..",
     "version": "0.0.1",
     "publisher": "jacoob",
     "engines": {
@@ -11,16 +11,45 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.textFunctions"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.textFunctions",
+                "title": "MdText",
+                "description": "Text functions on selections"
+            },
+            {
+                "command": "extension.colorFunctions",
+                "title": "MdColor",
+                "description": "Color functions on selections"
+            },
+            {
+                "command": "extension.tableFunctions",
+                "title": "MdTable",
+                "description": "Table Snippet"
             }
-        ]
+        ],
+        "keybindings": [
+            {
+                "command": "extension.tableFunctions",
+                "key": "ctrl+shift+t", 
+                "mac": "cmd+shift+t"
+            },
+            {
+                "command": "extension.colorFunctions",
+                "key": "ctrl+shift+c", 
+                "mac": "cmd+shift+c"
+            },
+            {
+                "command": "extension.textFunctions",
+                "key": "ctrl+shift+w",
+                "mac": "cmd+shift+w"
+            }
+        ],
+        "markdown.markdownItPlugins": true
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
@@ -32,5 +61,23 @@
         "eslint": "^4.6.1",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "js-beautify": "^1.7.5",
+        "markdown-it-emoji": "^1.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jacoobwang/vscode-markdown-helper.git"
+    },
+    "keywords": [
+        "vscode",
+        "markdown",
+        "color"
+    ],
+    "author": "jacoobwang",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jacoobwang/vscode-markdown-helper.git"
     }
 }
