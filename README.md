@@ -18,7 +18,7 @@ A VSCode plug to improve the efficiency of writing Markdown documents.
 3. 插入table的语法片段
 4. 支持emoji
 
-![](./markdown-helper.gif)
+![](https://raw.githubusercontent.com/jacoobwang/vscode-markdown-helper/master/markdown-helper.gif?raw=true)
 
 ## Release Notes
 
