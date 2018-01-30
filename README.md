@@ -36,6 +36,10 @@ Initial release of ...
 - **New**: pubilish
 - **Chore**: update version
 
+### 1.1.0
+
+- **New**: add icon
+
 ### For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)

@@ -2,7 +2,7 @@
     "name": "markdown-helper",
     "displayName": "markdown-helper",
     "description": "markdow helper functions like add text color, add h1 h2 h3, add img & snippet ..",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "jacoob",
     "icons": "icon.png",
     "engines": {
