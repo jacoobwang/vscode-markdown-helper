@@ -2,7 +2,7 @@
     "name": "markdown-helper",
     "displayName": "markdown-helper",
     "description": "markdow helper functions like add text color, add h1 h2 h3, add img & snippet ..",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "jacoob",
     "engines": {
         "vscode": "^1.19.0"
