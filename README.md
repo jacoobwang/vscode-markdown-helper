@@ -14,7 +14,7 @@ A VSCode plug to improve the efficiency of writing Markdown documents.
 -----------------
 中文说明
 1. 给选中的文本添加颜色
-2. 给选中的文本提供一些常用函数，比如添加大标题，中标题，高亮代码，转图片，转链接等
+2. 给选中的文本提供一些常用函数，比如添加大标题，中标题，高亮代码，转图片，转链接等
 3. 插入table的语法片段
 4. 支持emoji
 
